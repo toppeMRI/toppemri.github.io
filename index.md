@@ -11,9 +11,9 @@ Working with TOPPE involves three basic steps:
 1. Run the **TOPPE binary executable** (green box) which loads the files you created and executes the sequence on the scanner.
 
 
-![TOPPE files](/figs/files.png)
+The following figure shows an example of TOPPE files for a sequence containing four different modules:
 
-The above figure shows an example of TOPPE files for a sequence containing four different modules.
+![TOPPE files](/figs/files.png)
 
 
 ## Download MATLAB and EPIC source code
