@@ -12,7 +12,7 @@ Working with TOPPE involves three basic steps:
 
 ## Download MATLAB source code
 
-TOPPE MATLAB code is open source and can be viewed here: ![toppe MATLAB source link](https://github.com/toppeMRI/toppe).
+TOPPE MATLAB code is open source and can be viewed here: [toppe MATLAB source link](https://github.com/toppeMRI/toppe).
 Alternatively, you can clone the github repository:
 
 ```
@@ -22,6 +22,6 @@ git clone https://github.com/toppemri/toppe.github.io
 
 ## Using TOPPE as the GE interpreter for Pulseq (under development)
 
-Alternatively, TOPPE can be used as the interpreter for ![Pulseq](pulseq.github.io), which involves converting a Pulseq file to TOPPE files using *'seq2ge.m'* MATLAB script:
+Alternatively, TOPPE can be used as the interpreter for [Pulseq](pulseq.github.io), which involves converting a Pulseq file to TOPPE files using *'seq2ge.m'* MATLAB script:
 
 ![TOPPE files](/figs/pulseq.png)
