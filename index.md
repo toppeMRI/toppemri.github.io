@@ -31,7 +31,7 @@ The following figure shows an example for a TOPPE sequence containing four diffe
 
 ### MATLAB code
 
-TOPPE **MATLAB code** is open source and can be viewed here: [https://github.com/toppeMRI/toppe](https://github.com/toppeMRI/toppe/matlab/).
+TOPPE **MATLAB code** is open source and can be viewed here: [https://github.com/toppeMRI/toppe/matlab](https://github.com/toppeMRI/toppe/matlab/).
 Alternatively, from a console you can clone the entire github repository:
 
 ```
@@ -46,6 +46,15 @@ The **TOPPE binary executable** is written in 'EPIC' and is available for downlo
 ## GETTING STARTED
 
 The MATLAB code repository contains several complete pulse sequence examples, such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
+For example, to execute the 3D SPGR example, do the following:
+
+1. Navigate to [https://github.com/toppeMRI/toppe/matlab/examples/3dspgr/](https://github.com/toppeMRI/toppe/matlab/examples/3dspgr/) and download the file 'scan.tgz' in that folder.
+2. Copy scan.tgz to /usr/g/bin/ on the scanner and untar:
+```
+tar xzf scan.tgz
+```
+3. Load the TOPPE psd (currently named 'toppe8a') and scan.
+
 
 
 ## USING TOPPE AS A GE INTERPRETER FOR PULSEQ (under development)
