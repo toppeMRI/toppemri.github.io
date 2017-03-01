@@ -2,4 +2,4 @@
 
 TOPPE is a simple, modular development environment for rapid prototyping of pulse sequences on General Electric MRI scanners.
 
-<IMG SRC="figs/workflow.png" ALT="TOPPE work flow" WIDTH=100 align="BOTTOM">
+<IMG SRC="figs/workflow.png" ALT="TOPPE work flow" WIDTH=600 align="BOTTOM">
