@@ -22,6 +22,6 @@ git clone https://github.com/toppemri/toppe.github.io
 
 ## Using TOPPE as the GE interpreter for Pulseq (under development)
 
-Alternatively, TOPPE can be used as the interpreter for [Pulseq](pulseq.github.io), which involves converting a Pulseq file to TOPPE files using *'seq2ge.m'* MATLAB script:
+Alternatively, TOPPE can be used as the interpreter for [Pulseq](https://pulseq.github.io), which involves converting a Pulseq file to TOPPE files using *'seq2ge.m'* MATLAB script:
 
 ![TOPPE files](/figs/pulseq.png)
