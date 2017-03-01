@@ -1,1 +1,5 @@
-# TOPPE: Use MATLAB to program MR pulse sequences on GE MRI scanners 
+# README file for toppemri.github.io
+
+## Editing pages:
+By default, Jekyll uses the "markdown" markup language, see the [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
