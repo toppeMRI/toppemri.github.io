@@ -20,7 +20,7 @@ The TOPPE executable only needs to be compiled and installed once per scanner so
 
 ### Example 
 
-The following figure shows a TOPPE sequence containing four different modules:
+The following figure shows the TOPPE files for a sequence containing four different modules:
 
 ![TOPPE files](/figs/files.png)
 
@@ -45,7 +45,7 @@ The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for 
 
 ## GETTING STARTED
 
-To **compile** the TOPPE binary psd (currently named 'toppe8a'), navigate to [https://github.com/toppeMRI/toppe/psd/](https://github.com/toppeMRI/toppe/psd/) and download all files, then compile in the usual way:
+To **compile** the TOPPE binary psd (currently named 'toppe8a'), navigate to the 'toppe/psd/' subfolder in the EPIC source distribution and compile in the usual way:
 ```
 prep_psd_dir; psdqmake hw;
 ```
