@@ -7,20 +7,25 @@ TOPPE is a simple, modular development environment for rapid prototyping of puls
 Working with TOPPE involves three basic steps:
 
 1. Use **MATLAB** to define the RF and gradient waveforms you want to play out on the scanner.
-1. Write each separate sequence block (or **module**) to a file using **'mat2mod.m'** (a script that is part of the TOPPE distribution), and create a file named **'scanloop.txt'** that specifies the order with which to play out the modules, and with what waveform amplitudes (orange box above). 
+1. Write each unique sequence block (or **module**) to a file using **'mat2mod.m'** (a script that is part of the TOPPE distribution), and create a file named **'scanloop.txt'** that specifies the order with which to play out the modules, and with what waveform amplitudes (orange box above). 
 1. Run the **TOPPE binary executable** (green box) which loads the files you created and executes the sequence on the scanner.
 
 
 ## Download MATLAB and EPIC source code
 
-TOPPE MATLAB code is open source and can be viewed here: [https://github.com/toppeMRI/toppe](https://github.com/toppeMRI/toppe).
+TOPPE **MATLAB code** is open source and can be viewed here: [https://github.com/toppeMRI/toppe](https://github.com/toppeMRI/toppe/matlab/).
 Alternatively, you can clone the github repository:
 
 ```
 git clone https://github.com/toppemri/toppe.github.io
 ```
 
-The TOPPE pulse sequence binary executable is written in 'EPIC' and is available to GE research sites at the GE collaboration forum: [https://collaborate.mr.gehealthcare.com/](https://collaborate.mr.gehealthcare.com/).
+The **TOPPE binary executable** is written in 'EPIC' and is available for download on the GE collaboration forum: [https://collaborate.mr.gehealthcare.com/](https://collaborate.mr.gehealthcare.com/).
+
+
+## Getting started
+
+The MATLAB code repository contains several complete pulse sequence examples, such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
 
 
 ## Using TOPPE as the GE interpreter for Pulseq (under development)

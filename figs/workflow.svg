@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.91453"
-     inkscape:cx="169.21554"
-     inkscape:cy="100.39246"
+     inkscape:cx="144.49672"
+     inkscape:cy="111.378"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -12052,18 +12052,19 @@
        ry="5.7737217" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.0158453px;font-family:'Bitstream Vera Sans';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.625px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="324.36487"
        y="581.38214"
-       id="text7572"><tspan
-         sodipodi:role="line"
-         x="325.9592"
-         y="581.38214"
-         id="tspan7574">TOPPE </tspan><tspan
+       id="text7572"
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="324.36487"
-         y="593.90198"
-         id="tspan7151">sequence files</tspan></text>
+         y="581.38214"
+         id="tspan7151">Sequence files:</tspan><tspan
+         sodipodi:role="line"
+         x="324.36487"
+         y="594.66339"
+         id="tspan5521">*.mod, scanloop.txt</tspan></text>
     <g
        id="g5484"
        transform="translate(0,120)">
