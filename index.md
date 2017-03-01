@@ -40,17 +40,22 @@ git clone https://github.com/toppemri/toppe.github.io
 
 ### EPIC code
 
-The **TOPPE binary executable** is written in 'EPIC' and is available for download on the GE collaboration forum: [https://collaborate.mr.gehealthcare.com/](https://collaborate.mr.gehealthcare.com/).
+The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for download on the GE collaboration forum: [https://collaborate.mr.gehealthcare.com/](https://collaborate.mr.gehealthcare.com/).
 
 
 ## GETTING STARTED
 
-The MATLAB code repository contains several complete pulse sequence examples, such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
+To **compile** the TOPPE binary psd, navigate to [https://github.com/toppeMRI/toppe/psd/](https://github.com/toppeMRI/toppe/psd/) and download all files, then compile in the usual way:
+```
+prep_psd_dir; psdqmake hw;
+```
+
+The MATLAB code repository contains several complete **pulse sequence examples**, such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
 For example, to execute the 3D SPGR example, do the following:
 
-1. Navigate to [https://github.com/toppeMRI/toppe/matlab/examples/3dspgr/](https://github.com/toppeMRI/toppe/matlab/examples/3dspgr/) and download the file **'scan.tgz'**.
+1. Navigate to [https://github.com/toppeMRI/toppe/matlab/examples/3dspgr/](https://github.com/toppeMRI/toppe/matlab/examples/3dspgr/) and download the file 'scan.tgz'.
 2. Copy scan.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan.tgz```
-3. Load the TOPPE psd (currently named 'toppe8a') and scan.
+3. Load the TOPPE psd, which is currently named 'toppe8a', and scan.
 
 
 
