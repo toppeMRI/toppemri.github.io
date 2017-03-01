@@ -61,7 +61,7 @@ For example, to execute the 3D SPGR example, do the following:
 
 ## USING TOPPE AS A GE INTERPRETER FOR PULSEQ (under development)
 
-Alternatively, TOPPE can be used as the interpreter for [Pulseq](https://pulseq.github.io), which involves converting a Pulseq file to TOPPE files using the **'seq2ge.m'** MATLAB script including in the TOPPE distribution:
+TOPPE can be used as a GE interpreter for the [Pulseq](https://pulseq.github.io) file format, which involves converting a Pulseq file to TOPPE files using the **'seq2ge.m'** MATLAB script included in the TOPPE distribution:
 
 ![TOPPE files](/figs/pulseq.png)
 
