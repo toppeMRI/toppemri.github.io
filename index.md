@@ -1,4 +1,6 @@
 
+page.title = "TOPPEEE"
+site.title = "The end of PP"
 
 # TOPPE: Use MATLAB to program pulse sequences for GE MRI scanners
 
