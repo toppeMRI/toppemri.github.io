@@ -8,9 +8,9 @@
 
 TOPPE is a simple, modular development environment for rapid prototyping of pulse sequences on General Electric MRI scanners.
 
-![TOPPE workflow](/figs/workflow.png)
-
 Working with TOPPE involves three basic steps:
+
+![TOPPE workflow](/figs/workflow.png)
 
 1. Use **MATLAB** to define the RF and gradient waveforms you want to play out on the scanner.
 1. Create TOPPE **sequence files** (orange box above). This is done by writing each unique sequence block (or **module**) to a file using **'mat2mod.m'** (a script that is part of the TOPPE distribution), and creating a file named **'scanloop.txt'** that specifies the order in which to play out the modules, and with what waveform amplitudes. In addition, create a small file named 'modules.txt' that lists the various modules.
