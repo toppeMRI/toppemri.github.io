@@ -16,7 +16,7 @@
    inkscape:version="0.91 r13725"
    sodipodi:version="0.32"
    id="svg2"
-   height="2.8in"
+   height="1.12in"
    width="5.1999998in">
   <sodipodi:namedview
      id="base"
@@ -28,17 +28,17 @@
      objecttolerance="10000"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.82906"
-     inkscape:cx="233.99999"
-     inkscape:cy="126"
+     inkscape:zoom="1.91453"
+     inkscape:cx="236.07268"
+     inkscape:cy="100.39246"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="in"
-     inkscape:window-width="1855"
-     inkscape:window-height="1176"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-width="1920"
+     inkscape:window-height="1151"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
      inkscape:object-paths="true"
      inkscape:object-nodes="true"
      inkscape:snap-global="false"
@@ -8365,7 +8365,7 @@
        y1="3.9384086"
        x2="35.520542"
        y2="3.8451097"
-       gradientTransform="matrix(2.2242501,0,0,1.1001462,153.22891,558.63202)" />
+       gradientTransform="matrix(2.2242501,0,0,1.1001462,153.22891,458.63202)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient2711"
@@ -8375,7 +8375,7 @@
        y1="3.9384086"
        x2="35.520542"
        y2="3.8451097"
-       gradientTransform="matrix(2.2242501,0,0,1.1001462,153.41871,562.1504)" />
+       gradientTransform="matrix(2.2242501,0,0,1.1001462,153.41871,462.1504)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient2711"
@@ -8857,12 +8857,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-167.82781,-384.74222)"
+     transform="translate(-167.82781,-535.94222)"
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
@@ -8882,13 +8882,13 @@
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
        id="path8258"
-       d="m 391.06705,422.09885 -41.984,0 0,40.63513"
+       d="m 391.06705,322.09885 -41.984,0 0,40.63513"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92846566;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutL-6)" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path7597"
-       d="m 326.62183,498.19273 0,17.89897"
+       d="m 326.62183,398.19273 0,17.89897"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92846566;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutL-6)" />
     <rect
        style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.23338115;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;filter:url(#filter7909);enable-background:accumulate"
@@ -8899,11 +8899,11 @@
        y="459.65741"
        rx="3.7622714"
        ry="3.7622714"
-       transform="matrix(1.5346373,0,0,1.5346373,-240.72736,-234.81701)" />
+       transform="matrix(1.5346373,0,0,1.5346373,-240.72736,-334.81701)" />
     <rect
        ry="5.7737222"
        rx="5.7737222"
-       y="469.24307"
+       y="369.24307"
        x="275.13358"
        height="31.774832"
        width="98.539948"
@@ -11738,7 +11738,7 @@
         <polygon
            id="polygon8059"
            style="fill:#4b4b4b"
-           points="167.849,494.586 167.849,494.746 344.146,494.746 344.146,458.215 167.849,458.215 167.849,494.363 167.849,494.586 "
+           points="167.849,494.363 167.849,494.586 167.849,494.586 167.849,494.746 344.146,494.746 344.146,458.215 167.849,458.215 "
            class="st0" />
         <path
            id="path8061"
@@ -11966,7 +11966,7 @@
          id="g7509">
         <polygon
            class="st0"
-           points="167.849,458.215 167.849,494.363 167.849,494.586 167.849,494.586 167.849,494.746 344.146,494.746 344.146,458.215 "
+           points="344.146,494.746 344.146,458.215 167.849,458.215 167.849,494.363 167.849,494.586 167.849,494.586 167.849,494.746 "
            style="fill:#4b4b4b"
            id="polygon7511" />
         <path
@@ -12092,7 +12092,7 @@
     </g>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92846566;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutL-6)"
-       d="m 326.62183,541.57734 0,18.20667"
+       d="m 326.62183,441.57734 0,18.20667"
        id="path7649"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -12109,7 +12109,7 @@
        d="m 487.1561,670.36302 10.2613,0 0,-21.82429 7.06443,0"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60500658;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-5)" />
     <g
-       transform="matrix(0.11464695,0,0,0.11464695,757.18727,411.66994)"
+       transform="matrix(0.03683172,0,0,0.03683172,578.94243,542.63937)"
        id="g10">
       <g
          transform="scale(0.1,0.1)"
@@ -12130,21 +12130,21 @@
     </g>
     <text
        id="text5476"
-       y="481.75092"
+       y="381.75092"
        x="324.9881"
        style="font-style:normal;font-weight:normal;font-size:10.0158453px;font-family:'Bitstream Vera Sans';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          id="tspan5478"
-         y="481.75092"
+         y="381.75092"
          x="326.58243"
          sodipodi:role="line">Pulseq </tspan><tspan
-         y="494.27072"
+         y="394.27072"
          x="324.9881"
          sodipodi:role="line"
          id="tspan7925">sequence file</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92846566;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutL-6)"
-       d="m 259.17697,422.09885 43.47064,0 0,40.63513"
+       d="m 259.17697,322.09885 43.47064,0 0,40.63513"
        id="path5480"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
@@ -12277,14 +12277,14 @@
        id="path2631"
        sodipodi:nodetypes="ccccc" />
     <ellipse
-       cy="562.9649"
+       cy="462.9649"
        cx="230.59012"
        id="path2709"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient5642);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none"
        rx="1.8676792"
        ry="0.92378092" />
     <ellipse
-       cy="566.48322"
+       cy="466.48322"
        cx="230.77991"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient5644);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none"
        id="path2719"
@@ -12368,7 +12368,7 @@
          id="tspan7923">interpreter</tspan></text>
     <g
        id="g8260"
-       transform="matrix(1.5346373,0,0,1.5346373,-227.11663,-191.79362)">
+       transform="matrix(1.5346373,0,0,1.5346373,-227.11663,-291.79362)">
       <ellipse
          ry="6.7843246"
          rx="18.380226"
@@ -12535,17 +12535,17 @@
     <text
        sodipodi:linespacing="125%"
        id="text8110"
-       y="418.32013"
+       y="318.32013"
        x="206.94716"
        style="font-style:normal;font-weight:normal;font-size:10.91988564px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         y="418.32013"
+         y="318.32013"
          x="206.94716"
          id="tspan8112"
          sodipodi:role="line">MATLAB</tspan></text>
     <g
        id="g8288"
-       transform="matrix(1.5346373,0,0,1.5346373,-227.11663,-191.79362)">
+       transform="matrix(1.5346373,0,0,1.5346373,-227.11663,-291.79362)">
       <ellipse
          id="ellipse8160"
          style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient8216);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:0.70063692;marker:none;marker-start:none;marker-mid:none;marker-end:none"
@@ -12713,16 +12713,16 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.91988564px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="399.04654"
-       y="418.32013"
+       y="318.32013"
        id="text8212"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan8214"
          x="399.04654"
-         y="418.32013">JEMRIS</tspan></text>
+         y="318.32013">JEMRIS</tspan></text>
     <g
        id="g7599"
-       transform="translate(-40.1875,9.6160714)">
+       transform="translate(-40.1875,-90.383929)">
       <rect
          style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.8927927;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;filter:url(#filter7593);enable-background:accumulate"
          id="rect6935"
@@ -12746,12 +12746,12 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.0158453px;font-family:'Bitstream Vera Sans';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="324.9881"
-       y="537.04626"
+       y="437.04626"
        id="text6927"><tspan
          id="tspan6931"
          sodipodi:role="line"
          x="324.9881"
-         y="537.04626">Specify DAQ, etc</tspan></text>
+         y="437.04626">Specify DAQ, etc</tspan></text>
   </g>
   <style
      id="style8055"
