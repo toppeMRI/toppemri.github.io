@@ -35,7 +35,7 @@ TOPPE **MATLAB code** is open source and can be viewed here: [https://github.com
 Alternatively, from a console you can clone the entire github repository:
 
 ```
-git clone https://github.com/toppemri/toppe.github.io
+git clone https://github.com/toppemri/toppe
 ```
 
 ### EPIC code
