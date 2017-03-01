@@ -57,6 +57,7 @@ For example, to execute the 3D SPGR example, do the following:
 2. Copy scan.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan.tgz```
 3. Prescribe the TOPPE psd (toppe8a) and scan.
 
+Detailed instructions are provided in the ![TOPPE user guide](TOPPE_Guide.pdf).
 
 
 ## USING TOPPE AS A GE INTERPRETER FOR PULSEQ (under development)
