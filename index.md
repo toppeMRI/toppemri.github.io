@@ -7,8 +7,13 @@ TOPPE is a simple, modular development environment for rapid prototyping of puls
 Working with TOPPE involves three basic steps:
 
 1. Use **MATLAB** to define the RF and gradient waveforms you want to play out on the scanner.
-1. Write each unique sequence block (or **module**) to a file using **'mat2mod.m'** (a script that is part of the TOPPE distribution), and create a file named **'scanloop.txt'** that specifies the order with which to play out the modules, and with what waveform amplitudes (orange box above). 
+1. Write each unique sequence block (or **module**) to a file using **'mat2mod.m'** (a script that is part of the TOPPE distribution), and create a file named **'scanloop.txt'** that specifies the order with which to play out the modules, and with what waveform amplitudes (orange box above). In addition, create a small file named 'modules.txt' that lists the various modules.
 1. Run the **TOPPE binary executable** (green box) which loads the files you created and executes the sequence on the scanner.
+
+
+![TOPPE files](/figs/files.png)
+
+The above figure shows an example of TOPPE files for a sequence containing four different modules.
 
 
 ## Download MATLAB and EPIC source code
