@@ -48,11 +48,8 @@ The **TOPPE binary executable** is written in 'EPIC' and is available for downlo
 The MATLAB code repository contains several complete pulse sequence examples, such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
 For example, to execute the 3D SPGR example, do the following:
 
-1. Navigate to [https://github.com/toppeMRI/toppe/matlab/examples/3dspgr/](https://github.com/toppeMRI/toppe/matlab/examples/3dspgr/) and download the file 'scan.tgz' in that folder.
-2. Copy scan.tgz to /usr/g/bin/ on the scanner and untar:
-```
-tar xzf scan.tgz
-```
+1. Navigate to [https://github.com/toppeMRI/toppe/matlab/examples/3dspgr/](https://github.com/toppeMRI/toppe/matlab/examples/3dspgr/) and download the file **'scan.tgz'**.
+2. Copy scan.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan.tgz```
 3. Load the TOPPE psd (currently named 'toppe8a') and scan.
 
 
