@@ -20,7 +20,7 @@ The TOPPE executable only needs to be compiled and installed once per scanner so
 
 ### Example 
 
-The following figure shows an example for a TOPPE sequence containing four different modules:
+The following figure shows a TOPPE sequence containing four different modules:
 
 ![TOPPE files](/figs/files.png)
 
@@ -45,7 +45,7 @@ The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for 
 
 ## GETTING STARTED
 
-To **compile** the TOPPE binary psd, navigate to [https://github.com/toppeMRI/toppe/psd/](https://github.com/toppeMRI/toppe/psd/) and download all files, then compile in the usual way:
+To **compile** the TOPPE binary psd (currently named 'toppe8a'), navigate to [https://github.com/toppeMRI/toppe/psd/](https://github.com/toppeMRI/toppe/psd/) and download all files, then compile in the usual way:
 ```
 prep_psd_dir; psdqmake hw;
 ```
@@ -55,7 +55,7 @@ For example, to execute the 3D SPGR example, do the following:
 
 1. Navigate to [https://github.com/toppeMRI/toppe/matlab/examples/3dspgr/](https://github.com/toppeMRI/toppe/matlab/examples/3dspgr/) and download the file 'scan.tgz'.
 2. Copy scan.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan.tgz```
-3. Load the TOPPE psd, which is currently named 'toppe8a', and scan.
+3. Prescribe the TOPPE psd (toppe8a) and scan.
 
 
 
