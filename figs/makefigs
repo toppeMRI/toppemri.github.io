@@ -1,12 +1,6 @@
 # inkscape -d 600 -e tmp.png dynamicphase.svg; convert tmp.png -quality 30 dynamicphase.jpg; 
 
 # PDF files for draft
-inkscape -A workflow.pdf workflow.svg
-inkscape -A pulseq.pdf pulseq.svg
-inkscape -A files.pdf files.svg
-inkscape -d 600 -e tmp.png workflow.svg; convert tmp.png -quality 30 workflow.jpg; 
-inkscape -d 600 -e tmp.png pulseq.svg; convert tmp.png -quality 30 pulseq.jpg; 
-inkscape -d 600 -e tmp.png files.svg; convert tmp.png -quality 30 files.jpg; 
 inkscape -d 600 -e workflow.png workflow.svg;
 inkscape -d 600 -e pulseq.png pulseq.svg;
 inkscape -d 600 -e files.png files.svg;
