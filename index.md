@@ -1,7 +1,10 @@
 # TOPPE: Use MATLAB to program pulse sequences on GE MRI scanners
 
 
-## Overview
+## INTRODUCTION
+
+
+### Overview
 
 TOPPE is a simple, modular development environment for rapid prototyping of pulse sequences on General Electric MRI scanners.
 
@@ -14,14 +17,15 @@ Working with TOPPE involves three basic steps:
 1. Place the files you created in /usr/g/bin/ on the scanner, and run the **TOPPE binary executable** (green box) which loads the files and executes the sequence on the scanner.
 
 
-### TOPPE files: An example
+### Example 
 
 The following figure shows an example of TOPPE files for a sequence containing four different modules:
 
 ![TOPPE files](/figs/files.png)
 
 
-## Download TOPPE source code
+
+## DOWNLOAD TOPPE SOURCE CODE
 
 
 ### MATLAB code
@@ -38,12 +42,12 @@ git clone https://github.com/toppemri/toppe.github.io
 The **TOPPE binary executable** is written in 'EPIC' and is available for download on the GE collaboration forum: [https://collaborate.mr.gehealthcare.com/](https://collaborate.mr.gehealthcare.com/).
 
 
-## Getting started
+## GETTING STARTED
 
 The MATLAB code repository contains several complete pulse sequence examples, such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
 
 
-## Using TOPPE as the GE interpreter for Pulseq (under development)
+## USING TOPPE AS A GE INTERPRETER FOR PULSEQ (under development)
 
 Alternatively, TOPPE can be used as the interpreter for [Pulseq](https://pulseq.github.io), which involves converting a Pulseq file to TOPPE files using **'seq2ge.m'** MATLAB script:
 
