@@ -79,7 +79,9 @@ For example, to execute the 3D SPGR example, do the following:
     + Flip angle: 10.
 4. Download the sequence, run auto-prescan, and scan.
 
+<dl>
 Additional details and instructions are provided in the [TOPPE user guide](TOPPE_Guide.pdf).
+</dl>
 
 
 
