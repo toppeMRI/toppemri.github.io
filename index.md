@@ -63,7 +63,9 @@ Detailed instructions are provided in the ![TOPPE user guide](TOPPE_Guide.pdf).
 
 ## USING TOPPE AS A GE INTERPRETER FOR PULSEQ (under development)
 
-TOPPE can be used as a GE interpreter of the [Pulseq](https://pulseq.github.io) file format, which involves converting a Pulseq file to TOPPE files using the **'seq2ge.m'** MATLAB script included in the TOPPE distribution:
+Pulseq ([https://pulseq.github.io](https://pulseq.github.io)) is platform-independent file format for specifying arbitrary MR sequences.
+TOPPE can be used as a GE interpreter of Pulseq files, which involves converting a Pulseq file to TOPPE files using the **'seq2ge.m'** MATLAB script included in the TOPPE distribution.
+For more details about Pulseq, see the following paper: [DOI: 10.1002/mrm.26235] (http://onlinelibrary.wiley.com/doi/10.1002/mrm.26235/abstract).
 
 ![TOPPE files](/figs/pulseq.png)
 
