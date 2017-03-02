@@ -70,12 +70,12 @@ For example, to execute the 3D SPGR example, do the following:
   + Prescribe a single axial slice.
   + Uncheck 'shim', such that auto-prescan will skip the shim step.
   + Other settings do not matter but must be specified. Suggested values are:
-    + Freq. FOV: 24
-    + Slice thickness: use design value.
-    + Slice spacing: 0
-    + Number of slices: 1
-    + TE: 5.0
-    + Flip angle: 10
+     Freq. FOV: 24;
+     Slice thickness: use design value;
+     Slice spacing: 0;
+     Number of slices: 1;
+     TE: 5.0;
+     Flip angle: 10.
 4. Download the sequence, run auto-prescan, and scan.
 
 Additional details and instructions are provided in the [TOPPE user guide](TOPPE_Guide.pdf).
