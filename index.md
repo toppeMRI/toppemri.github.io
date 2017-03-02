@@ -30,6 +30,7 @@ The following example shows the TOPPE files for a sequence containing four diffe
 ## DOWNLOAD TOPPE SOURCE CODE
 
 
+
 ### MATLAB code
 
 TOPPE MATLAB code is open source and can be viewed here: [https://github.com/toppeMRI/toppe/](https://github.com/toppeMRI/toppe/).
@@ -39,14 +40,16 @@ Alternatively, from a console you can copy the entire MATLAB repository to a loc
 git clone https://github.com/toppemri/toppe
 ```
 
+
 ### EPIC code
 
 The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for download on the GE collaboration forum: [https://collaborate.mr.gehealthcare.com/](https://collaborate.mr.gehealthcare.com/).
 
 
+
 ## GETTING STARTED
 
-To **compile** the TOPPE binary psd (currently named 'toppe8a'), navigate to the 'toppe/psd/' subfolder in the EPIC source distribution and compile in the usual way:
+To **compile** the TOPPE binary psd (e.g., 'toppev1'), navigate to the 'toppe/psd/' subfolder in the EPIC source distribution and compile in the usual way:
 ```
 prep_psd_dir; psdqmake hw;
 ```
@@ -56,9 +59,11 @@ For example, to execute the 3D SPGR example, do the following:
 
 1. Navigate to [https://github.com/toppeMRI/toppe/tree/master/matlab/seqlib/](https://github.com/toppeMRI/toppe/tree/master/matlab/seqlib/), select the '3dspgr' folder, and download the file 'scan.tgz'.
 2. Copy scan.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan.tgz```
-3. Prescribe the TOPPE psd (toppe9a) and scan.
+3. Prescribe the TOPPE interpreter (e.g., toppev1) and scan:
+  + 
 
-Detailed instructions are provided in the [TOPPE user guide](TOPPE_Guide.pdf).
+Additional details and instructions are provided in the [TOPPE user guide](TOPPE_Guide.pdf).
+
 
 
 ## USING TOPPE AS A GE INTERPRETER FOR PULSEQ (under development)
