@@ -49,29 +49,34 @@ The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for 
 
 ## GETTING STARTED
 
+
+### Compiling the TOPPE interpreter
+
 To **compile** the TOPPE binary psd (e.g., 'toppev1'), navigate to the 'toppe/psd/' subfolder in the EPIC source distribution and compile in the usual way:
 ```
 prep_psd_dir; psdqmake hw;
 ```
 As usual, copy the resulting executable files (e.g., toppev1 and toppev1.psd.o) to /usr/g/bin/ on the scanner.
 
+### Running an example TOPPE sequence
+
 The MATLAB code repository contains several complete [pulse sequence examples](https://github.com/toppeMRI/toppe/tree/master/matlab/seqlib/), such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
 For example, to execute the 3D SPGR example, do the following:
 
 1. Navigate to [https://github.com/toppeMRI/toppe/tree/master/matlab/seqlib/](https://github.com/toppeMRI/toppe/tree/master/matlab/seqlib/), select the '3dspgr' folder, and download the file 'scan.tgz'.
 2. Copy scan.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan.tgz```
-3. Prescribe the TOPPE interpreter (e.g., toppev1) as follows, then scan:
+3. Prescribe the TOPPE interpreter, e.g., toppev1:
   + Select Axial 2D pulse sequence; Family: ’Gradient Echo’; pulse: ’GRE’; PSD Name: ’toppev1’;
   + Prescribe a single axial slice.
   + Uncheck 'shim', such that auto-prescan will skip the shim step.
-  + Other settings do not matter, but suggested values are:
+  + Other settings do not matter but must be specified. Suggested values are:
     + Freq. FOV: 24
-    + Set slice thickness to the design value.
-    + Set slice spacing to 0.
-    + Set number of slices to 1
-    + TE: 5.0 (doesn’t matter)
-    + Flip angle: 10 (doesn’t matter)
-  + Download scan, run auto-prescan, and scan.
+    + Slice thickness: use design value.
+    + Slice spacing: 0
+    + Number of slices: 1
+    + TE: 5.0
+    + Flip angle: 10
+4. Download the sequence, run auto-prescan, and scan.
 
 Additional details and instructions are provided in the [TOPPE user guide](TOPPE_Guide.pdf).
 
