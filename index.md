@@ -33,11 +33,11 @@ The following example shows the TOPPE files for a sequence containing four diffe
 
 ### MATLAB code
 
-TOPPE MATLAB code is open source and can be viewed here: [https://github.com/toppeMRI/toppe/](https://github.com/toppeMRI/toppe/).
+TOPPE MATLAB code is open source and can be viewed here: [https://github.com/toppeMRI/matlab/](https://github.com/toppeMRI/matlab/).
 Alternatively, from a console you can copy the entire MATLAB repository to a local folder as follows:
 
 ```
-git clone https://github.com/toppemri/toppe
+git clone https://github.com/toppemri/matlab
 ```
 
 
@@ -52,7 +52,7 @@ The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for 
 
 ### Compiling the TOPPE interpreter
 
-To compile the TOPPE binary psd (e.g., 'toppev1'), navigate to the 'toppe/psd/' subfolder in the EPIC source distribution and compile in the usual way:
+To compile the TOPPE binary psd (e.g., 'toppev1'), navigate to the '/psd/' subfolder in the EPIC source distribution and compile in the usual way:
 ```
 prep_psd_dir; psdqmake hw;
 ```
@@ -61,10 +61,10 @@ Copy the resulting executable files, i.e., toppev1 and toppev1.psd.o, to /usr/g/
 
 ### Running an example TOPPE sequence
 
-The MATLAB code repository contains several complete [pulse sequence examples](https://github.com/toppeMRI/toppe/tree/master/matlab/seqlib/), such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
+The MATLAB code repository contains several complete [pulse sequence examples](https://github.com/toppeMRI/matlab/tree/master/examples/), such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
 For example, to execute the 3D SPGR example, do the following:
 
-1. Navigate to [https://github.com/toppeMRI/toppe/tree/master/matlab/seqlib/](https://github.com/toppeMRI/toppe/tree/master/matlab/seqlib/), select the '3dspgr' folder, and download the file 'scan.tgz'.
+1. Navigate to [https://github.com/toppeMRI/matlab/tree/master/examples/](https://github.com/toppeMRI/matlab/tree/master/examples/), select the '3dspgr' folder, and download the file 'scan.tgz'.
 2. Copy scan.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan.tgz```
 3. Prescribe the TOPPE interpreter, e.g., toppev1:
   + Select Axial 2D pulse sequence; Family: ’Gradient Echo’; pulse: ’GRE’; PSD Name: ’toppev1’;
