@@ -32,7 +32,7 @@ The following example shows the TOPPE files for a sequence containing four diffe
 
 ### MATLAB code
 
-TOPPE MATLAB code is open source and can be viewed here: [https://github.com/toppeMRI/toppe/matlab](https://github.com/toppeMRI/toppe/matlab/).
+TOPPE MATLAB code is open source and can be viewed here: [https://github.com/toppeMRI/toppe/](https://github.com/toppeMRI/toppe/).
 Alternatively, from a console you can copy the entire github repository to a local folder as follows:
 
 ```
