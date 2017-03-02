@@ -58,14 +58,14 @@ For example, to execute the 3D SPGR example, do the following:
 2. Copy scan.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan.tgz```
 3. Prescribe the TOPPE psd (toppe9a) and scan.
 
-Detailed instructions are provided in the ![TOPPE user guide](TOPPE_Guide.pdf).
+Detailed instructions are provided in the [TOPPE user guide](TOPPE_Guide.pdf).
 
 
 ## USING TOPPE AS A GE INTERPRETER FOR PULSEQ (under development)
 
 Pulseq ([https://pulseq.github.io](https://pulseq.github.io)) is platform-independent file format for specifying arbitrary MR sequences.
 TOPPE can be used as a GE interpreter of Pulseq files, which involves converting a Pulseq file to TOPPE files using the **'seq2ge.m'** MATLAB script included in the TOPPE distribution.
-For more details about Pulseq, see the following paper: [DOI: 10.1002/mrm.26235] (http://onlinelibrary.wiley.com/doi/10.1002/mrm.26235/abstract).
+For more details about Pulseq, see the following paper: [DOI: 10.1002/mrm.26235](http://onlinelibrary.wiley.com/doi/10.1002/mrm.26235/abstract).
 
 ![TOPPE files](/figs/pulseq.png)
 
