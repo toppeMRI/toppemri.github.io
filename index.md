@@ -33,7 +33,7 @@ The following example shows the TOPPE files for a sequence containing four diffe
 ### MATLAB code
 
 TOPPE MATLAB code is open source and can be viewed here: [https://github.com/toppeMRI/toppe/](https://github.com/toppeMRI/toppe/).
-Alternatively, from a console you can copy the entire github repository to a local folder as follows:
+Alternatively, from a console you can copy the entire MATLAB repository to a local folder as follows:
 
 ```
 git clone https://github.com/toppemri/toppe
@@ -51,10 +51,10 @@ To **compile** the TOPPE binary psd (currently named 'toppe8a'), navigate to the
 prep_psd_dir; psdqmake hw;
 ```
 
-The MATLAB code repository contains several complete **pulse sequence examples**, such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
+The MATLAB code repository contains several complete [pulse sequence examples](https://github.com/toppeMRI/toppe/tree/master/matlab/seqlib/), such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
 For example, to execute the 3D SPGR example, do the following:
 
-1. Navigate to [https://github.com/toppeMRI/toppe/tree/master/matlab/seqlib/3dspgr/](https://github.com/toppeMRI/toppe/tree/master/matlab/seqlib/3dspgr/) and download the file 'scan.tgz'.
+1. Navigate to [https://github.com/toppeMRI/toppe/tree/master/matlab/seqlib/](https://github.com/toppeMRI/toppe/tree/master/matlab/seqlib/), select the '3dspgr' folder, and download the file 'scan.tgz'.
 2. Copy scan.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan.tgz```
 3. Prescribe the TOPPE psd (toppe9a) and scan.
 
