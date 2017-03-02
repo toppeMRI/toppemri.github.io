@@ -52,11 +52,12 @@ The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for 
 
 ### Compiling the TOPPE interpreter
 
-To **compile** the TOPPE binary psd (e.g., 'toppev1'), navigate to the 'toppe/psd/' subfolder in the EPIC source distribution and compile in the usual way:
+To compile the TOPPE binary psd (e.g., 'toppev1'), navigate to the 'toppe/psd/' subfolder in the EPIC source distribution and compile in the usual way:
 ```
 prep_psd_dir; psdqmake hw;
 ```
-As usual, copy the resulting executable files (e.g., toppev1 and toppev1.psd.o) to /usr/g/bin/ on the scanner.
+Copy the resulting executable files, i.e., toppev1 and toppev1.psd.o, to /usr/g/bin/ on the scanner.
+
 
 ### Running an example TOPPE sequence
 
