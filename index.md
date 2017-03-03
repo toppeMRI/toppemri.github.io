@@ -70,7 +70,7 @@ For example, to execute the 3D SPGR example, do the following:
   + Select Axial 2D pulse sequence; Family: ’Gradient Echo’; pulse: ’GRE’; PSD Name: ’toppev1’;
   + Prescribe a single axial slice.
   + Set shim to 'off'.
-  + Other settings do not matter but must be specified. Suggested values are: Slice thickness $=$ 3, slice spacing$=$ 0, number of slices$=$ 1.
+  + Other settings do not matter but must be specified. Suggested values are: Slice thickness 3, slice spacing 0, number of slices 1.
 4. Download the sequence, run auto-prescan, and scan.
 
 
