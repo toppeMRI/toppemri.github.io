@@ -82,6 +82,7 @@ For example, to execute the 3D SPGR example, do the following:
 <dl>
 <!-- Additional details and instructions are provided in the [TOPPE user guide](UserGuide/TOPPE_Guide.pdf). -->
 </dl>
+Additional details and instructions are provided in the [TOPPE user guide](UserGuide/TOPPE_Guide.pdf).
 
 
 
