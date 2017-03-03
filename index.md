@@ -69,14 +69,11 @@ For example, to execute the 3D SPGR example, do the following:
 3. Prescribe the TOPPE interpreter, e.g., toppev1:
   + Select Axial 2D pulse sequence; Family: ’Gradient Echo’; pulse: ’GRE’; PSD Name: ’toppev1’;
   + Prescribe a single axial slice.
-  + Uncheck 'shim', such that auto-prescan will skip the shim step.
+  + Set shim to 'off'.
   + Other settings do not matter but must be specified. Suggested values are:
-    + Freq. FOV: 24;
-    + Slice thickness: use design value;
-    + Slice spacing: 0;
+    + Slice thickness: 3
+    + Slice spacing: 0
     + Number of slices: 1;
-    + TE: 5.0;
-    + Flip angle: 10.
 4. Download the sequence, run auto-prescan, and scan.
 
 <dl>
