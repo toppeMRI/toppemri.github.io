@@ -2,12 +2,12 @@
 \chapter{Using the toppe sequence}
 
 \section{Creating .mod files}
-The {\tt matlab} folder in the toppe distribution (tar file) includes the Matlab script {\tt \bf mat2wav.m} that writes rho, theta, gx, gy, and gz waveforms for a core/module to a .mod file.
+The TOPPE MATLAB repository (\matrep) includes the Matlab script {\tt \bf mat2mod.m} that writes rho, theta, gx, gy, and gz waveforms for a module to a .mod file.
 Important notes and caveats:
 \begin{itemize}
-\item All waveforms in a core must have the same length, i.e., they must be padded with zeroes as needed.
-\item Even if the core is not an RF excitation core, you must create a non-zero 'dummy' RF pulse to ensure that the .mod file will be loaded correctly on the scanner (hopefully this bug will be fixed in future releases). A simple hard RF pulse of low amplitude (e.g., 0.01 Gauss) seems to work well in most cases.
-\item If the core is a readout core, data will be acquired every 4us for the entire duration of the waveforms in the .mod file. Depending on your readout trajectory, you may therefore need to discard some of the data (near the beginning and/or end of the core) before reconstructing.
+\item All waveforms in a module must have the same length, i.e., they must be padded with zeroes as needed.
+\item Even if the module is not an RF excitation module, you must create a non-zero 'dummy' RF pulse to ensure that the .mod file will be loaded correctly on the scanner (hopefully this bug will be fixed in future releases). A simple hard RF pulse of low amplitude (e.g., 0.01 Gauss) seems to work well in most cases.
+\item If the module is a readout module, data will be acquired every 4~$\mu$ for the entire duration of the waveforms in the .mod file. Depending on your readout trajectory, you may therefore need to discard some of the data (near the beginning and/or end of the module) before reconstructing.
 \item If more than one readout .mod file is used, they must all be the same length (readout windows of different widths are not permitted).
 \item For backward compatibility, the following must be done (this may change in future releases):
 \begin{itemize}
@@ -22,17 +22,18 @@ Important notes and caveats:
 
 
 \section{Creating scanloop.txt}
-The toppe distribution contains an example Matlab file in the \texttt{example} directory, {\tt \bf writeloop.m}, that creates {\tt scanloop.txt} for a scan that combines Bloch-Siegert mapping, and SPGR acquisitions with different flip angle and TR, into one long scan. 
+The {\tt examples} folder in the TOPPE MATLAB repository (\matrep) contains several examples of how {\tt scanloop.txt} can be created.
+Specifically, this is done in each example with the script {\tt \bf writeloop.m}.
 
 We have determined empirically that to avoid data corruption, {\bf{\tt rhnslices} should be even}.
 In addition, for now, avoid loading the {\tt dabslice}$=0$ slot with data. 
 This means that there will be an odd number of slice slots available for useful data.
-On the console, prescribe {\tt rhnslices}$-1$ slices, i.e., the number of loaddab slice slots filled with the desired data.
 
-\section{Testing your files with {\tt scansim.m} }
 
-We recommend displaying your sequence in Matlab using \texttt{scansim.m} before attempting to play it on the scanner, to verify that the correct cores are played out in the intended order.
-\texttt{scansim.m} attempts to reproduce the exact core timing seen on the scanner, using CV values in the file \texttt{timing.txt}.
+\section{Pre-viewing your sequence with {\tt playseq.m} }
+
+We recommend displaying your sequence in Matlab using \texttt{playseq.m} before attempting to play it on the scanner, to verify that the correct modules are played out in the intended order.
+\texttt{playseq.m} attempts to reproduce the exact module timing seen on the scanner, using CV values in the file \texttt{timing.txt}.
 To use \texttt{scansim.m}, first use \texttt{readloop.m} to load a \texttt{scanloop.txt} file.
 \texttt{scansim.m} and \texttt{readloop.m} can be found in the \texttt{matlab} directory.
 As an example, do the following in the \texttt{example} directory:

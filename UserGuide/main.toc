@@ -8,10 +8,10 @@
 \contentsline {chapter}{\numberline {2}Using the toppe sequence}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Creating .mod files}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Creating modules.txt}{4}{section.2.2}
-\contentsline {section}{\numberline {2.3}Creating scanloop.txt}{4}{section.2.3}
-\contentsline {section}{\numberline {2.4}Testing your files with {\tt scansim.m} }{5}{section.2.4}
+\contentsline {section}{\numberline {2.3}Creating scanloop.txt}{5}{section.2.3}
+\contentsline {section}{\numberline {2.4}Pre-viewing your sequence with {\tt playseq.m} }{5}{section.2.4}
 \contentsline {section}{\numberline {2.5}Compiling the toppe pulse sequence}{5}{section.2.5}
-\contentsline {section}{\numberline {2.6}Step-by-step scanner instructions}{5}{section.2.6}
+\contentsline {section}{\numberline {2.6}Step-by-step scanner instructions}{6}{section.2.6}
 \contentsline {section}{\numberline {2.7}Checklist}{8}{section.2.7}
 \contentsline {section}{\numberline {2.8}Known bugs and limitations}{8}{section.2.8}
 \contentsline {chapter}{\numberline {3}Controlling sequence timing}{10}{chapter.3}
