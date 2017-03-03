@@ -76,10 +76,12 @@ For example, to execute the 3D SPGR example, do the following:
     + Number of slices: 1;
 4. Download the sequence, run auto-prescan, and scan.
 
+Additional details and instructions are provided in the [TOPPE user guide](https://github.com/toppeMRI/UserGuide/blob/master/TOPPE_UserGuide.pdf).
+This guide is open-source, with Latex source code available in the following repository: <https://github.com/toppeMRI/UserGuide/>.
+
 <dl>
-<!-- Additional details and instructions are provided in the [TOPPE user guide](UserGuide/TOPPE_UserGuide.pdf). -->
+<!-- This is a comment -->
 </dl>
-Additional details and instructions are provided in the [TOPPE user guide](UserGuide/TOPPE_UserGuide.pdf).
 
 
 
