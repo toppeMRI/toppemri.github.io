@@ -95,3 +95,6 @@ For more details about Pulseq, see the following paper: [DOI: 10.1002/mrm.26235]
 ![TOPPE files](/figs/pulseq.png)
 
 
+## Contact us
+
+For questions about TOPPE, contact Jon-Fredrik Nielsen at jfnielse@umich.edu.
