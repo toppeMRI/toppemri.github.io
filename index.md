@@ -33,8 +33,7 @@ The following example shows the TOPPE files for a sequence containing four diffe
 
 ### MATLAB code
 
-TOPPE MATLAB code is open source and can be viewed here: [https://github.com/toppeMRI/matlab/](https://github.com/toppeMRI/matlab/).
-TOPPE MATLAB code is open source and can be viewed here: <https://github.com/toppeMRI/matlab/>
+TOPPE MATLAB code is open source and can be viewed here: <https://github.com/toppeMRI/matlab/>.
 Alternatively, from a console you can copy the entire MATLAB repository to a local folder as follows:
 
 ```
@@ -44,7 +43,7 @@ git clone https://github.com/toppemri/matlab
 
 ### EPIC code
 
-The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for download on the GE collaboration forum: [https://collaborate.mr.gehealthcare.com/](https://collaborate.mr.gehealthcare.com/).
+The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for download on the GE collaboration forum: <https://collaborate.mr.gehealthcare.com/>.
 
 
 
@@ -65,7 +64,7 @@ Copy the resulting executable files, i.e., toppev1 and toppev1.psd.o, to /usr/g/
 The MATLAB code repository contains several complete [pulse sequence examples](https://github.com/toppeMRI/matlab/tree/master/examples/), such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
 For example, to execute the 3D SPGR example, do the following:
 
-1. Navigate to [https://github.com/toppeMRI/matlab/tree/master/examples/](https://github.com/toppeMRI/matlab/tree/master/examples/), select the '3dspgr' folder, and download the file 'scan.tgz'.
+1. Navigate to <https://github.com/toppeMRI/matlab/tree/master/examples/>, select the '3dspgr' folder, and download the file 'scan.tgz'.
 2. Copy scan.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan.tgz```
 3. Prescribe the TOPPE interpreter, e.g., toppev1:
   + Select Axial 2D pulse sequence; Family: ’Gradient Echo’; pulse: ’GRE’; PSD Name: ’toppev1’;
@@ -89,7 +88,7 @@ Additional details and instructions are provided in the [TOPPE user guide](UserG
 
 ## USING TOPPE AS A GE INTERPRETER FOR PULSEQ (under development)
 
-Pulseq ([https://pulseq.github.io](https://pulseq.github.io)) is platform-independent file format for specifying arbitrary MR sequences.
+Pulseq (<https://pulseq.github.io>) is platform-independent file format for specifying arbitrary MR sequences.
 TOPPE can be used as a GE interpreter of Pulseq files, which involves converting a Pulseq file to TOPPE files using the **'seq2ge.m'** MATLAB script included in the TOPPE distribution.
 For more details about Pulseq, see the following paper: [DOI: 10.1002/mrm.26235](http://onlinelibrary.wiley.com/doi/10.1002/mrm.26235/abstract).
 
