@@ -77,7 +77,7 @@ For example, to execute the 3D SPGR example, do the following:
 ### The TOPPE User Guide
 
 Additional details and instructions are provided in the [TOPPE user guide](https://github.com/toppeMRI/UserGuide/blob/master/TOPPE_UserGuide.pdf).
-This guide is open-source, with Latex source code available in the following repository: <https://github.com/toppeMRI/UserGuide/>.
+Latex source code for this guide is open-source, available in the following repository: <https://github.com/toppeMRI/UserGuide/>.
 To get a copy of the repository, do:
 ```
 git clone https://github.com/toppemri/UserGuide
