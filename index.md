@@ -83,7 +83,7 @@ Additional details and instructions are provided in the [TOPPE user guide](https
 This guide is open-source, with Latex source code available in the following repository: <https://github.com/toppeMRI/UserGuide/>.
 To get a copy of the repository, do:
 ```
-git clone https://github.com/toppemri/matlab
+git clone https://github.com/toppemri/UserGuide
 ```
 
 <dl>
