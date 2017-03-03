@@ -4,16 +4,16 @@
 \contentsline {subsection}{\numberline {1.2.1} {\tt $\star $.mod} files}{2}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}\tt modules.txt}{2}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}\tt scanloop.txt}{2}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Legacy files }{3}{subsection.1.2.4}
 \contentsline {chapter}{\numberline {2}Using the toppe sequence}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Creating .mod files}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Creating modules.txt}{4}{section.2.2}
 \contentsline {section}{\numberline {2.3}Creating scanloop.txt}{4}{section.2.3}
 \contentsline {section}{\numberline {2.4}Testing your files with {\tt scansim.m} }{5}{section.2.4}
 \contentsline {section}{\numberline {2.5}Compiling the toppe pulse sequence}{5}{section.2.5}
-\contentsline {section}{\numberline {2.6}Legacy files that must exist in \texttt {/usr/g/bin/} on scanner}{5}{section.2.6}
-\contentsline {section}{\numberline {2.7}Step-by-step scanner instructions}{6}{section.2.7}
-\contentsline {section}{\numberline {2.8}Checklist}{8}{section.2.8}
-\contentsline {section}{\numberline {2.9}Known bugs and limitations}{8}{section.2.9}
+\contentsline {section}{\numberline {2.6}Step-by-step scanner instructions}{5}{section.2.6}
+\contentsline {section}{\numberline {2.7}Checklist}{8}{section.2.7}
+\contentsline {section}{\numberline {2.8}Known bugs and limitations}{8}{section.2.8}
 \contentsline {chapter}{\numberline {3}Controlling sequence timing}{10}{chapter.3}
 \contentsline {chapter}{\numberline {4}Using toppe.e as an interpreter module for Pulseq files}{12}{chapter.4}
 \contentsline {section}{\numberline {4.1}Pulseq}{12}{section.4.1}
