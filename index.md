@@ -33,7 +33,10 @@ The following example shows the TOPPE files for a sequence containing four diffe
 
 ### MATLAB code
 
-TOPPE MATLAB code is open source and can be viewed here: <https://github.com/toppeMRI/matlab/>.
+TOPPE MATLAB code is open source and is available at:
+
+<https://github.com/toppeMRI/matlab/>
+
 Alternatively, from a console you can copy the entire MATLAB repository to a local folder as follows:
 
 ```
@@ -43,7 +46,9 @@ git clone https://github.com/toppemri/matlab
 
 ### EPIC code
 
-The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for download on the GE collaboration forum: <https://collaborate.mr.gehealthcare.com/>.
+The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for download on the GE collaboration forum: 
+
+<https://collaborate.mr.gehealthcare.com/docs/DOC-1247>
 
 
 
@@ -77,7 +82,10 @@ For example, to execute the 3D SPGR example, do the following:
 ### The TOPPE User Guide
 
 Additional details and instructions are provided in the [TOPPE user guide](https://github.com/toppeMRI/UserGuide/blob/master/TOPPE_UserGuide.pdf).
-Latex source code for this guide is open-source, available in the following repository: <https://github.com/toppeMRI/UserGuide/>.
+Latex source code for this guide is open-source, available in the following repository: 
+
+<https://github.com/toppeMRI/UserGuide/>
+
 To get a copy of the repository, do:
 ```
 git clone https://github.com/toppemri/UserGuide
