@@ -95,7 +95,7 @@ git clone https://github.com/toppemri/UserGuide
 
 
 
-# USING TOPPE AS A GE INTERPRETER FOR PULSEQ (under development)
+# USING TOPPE AS A GE INTERPRETER FOR Pulseq (under development)
 
 Pulseq (<https://pulseq.github.io>) is platform-independent file format for specifying arbitrary MR sequences.
 In preliminary work we have used TOPPE as a GE interpreter of Pulseq files, which involves converting a Pulseq file to TOPPE files using the **'seq2ge.m'** MATLAB script included in the TOPPE distribution.
