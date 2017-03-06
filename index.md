@@ -106,6 +106,8 @@ For more details about Pulseq, see the following paper:
 ![TOPPE files](/figs/pulseq.png)
 
 
-## Contact us
+# Contact us
 
-For questions about TOPPE, contact Jon-Fredrik Nielsen at jfnielse@umich.edu.
+TOPPE was developed at the fMRI laboratory at University of Michigan.
+
+For questions, contact Jon-Fredrik Nielsen at jfnielse@umich.edu.
