@@ -1,5 +1,3 @@
-# TOPPE: MR pulse sequence programming in MATLAB
-
 
 ## INTRODUCTION
 
