@@ -1,5 +1,5 @@
 
-## INTRODUCTION
+# INTRODUCTION
 
 ### Overview
 
@@ -25,7 +25,7 @@ The following example shows the TOPPE files for a sequence containing four diffe
 
 
 
-## DOWNLOAD TOPPE SOURCE CODE
+# DOWNLOAD TOPPE SOURCE CODE
 
 
 
@@ -50,7 +50,7 @@ The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for 
 
 
 
-## GETTING STARTED
+# GETTING STARTED
 
 
 ### Compiling the TOPPE interpreter
@@ -95,7 +95,7 @@ git clone https://github.com/toppemri/UserGuide
 
 
 
-## USING TOPPE AS A GE INTERPRETER FOR PULSEQ (under development)
+# USING TOPPE AS A GE INTERPRETER FOR PULSEQ (under development)
 
 Pulseq (<https://pulseq.github.io>) is platform-independent file format for specifying arbitrary MR sequences.
 In preliminary work we have used TOPPE as a GE interpreter of Pulseq files, which involves converting a Pulseq file to TOPPE files using the **'seq2ge.m'** MATLAB script included in the TOPPE distribution.
