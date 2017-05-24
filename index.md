@@ -10,7 +10,7 @@ Working with TOPPE involves three basic steps:
 ![TOPPE workflow](/figs/workflow.png)
 
 1. **Design** the RF and gradient waveforms you want to play out on the scanner, using any suitable method.
-1. Create TOPPE **sequence files** (orange box). This is done by first writing each unique sequence block, or module, to a **'.mod'** file using the **'mat2mod.m'** MATLAB script. 
+1. Create TOPPE **sequence files** (gray boxes). This is done by first writing each unique sequence block, or module, to a **'.mod'** file using the **'mat2mod.m'** MATLAB script. 
 You then create a file named **'scanloop.txt'** that specifies the order in which to play out the modules, waveform amplitudes, and other dynamic sequence information. 
 Finally, create a small file named **'modules.txt'** that lists the various modules.
 1. Copy the files you created to **/usr/g/bin/** on the scanner, and run the **TOPPE binary executable** (green box) which loads the files and executes the sequence.
