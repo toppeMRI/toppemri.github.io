@@ -7,7 +7,7 @@ TOPPE is a simple, modular framework for rapid prototyping of pulse sequences on
 
 Working with TOPPE involves three basic steps:
 
-![TOPPE workflow](/figs/workflow.png)
+![TOPPE workflow](/figs/workflow.svg)
 
 1. **Design** the RF and gradient waveforms you want to play out on the scanner, using any suitable method.
 1. Create TOPPE **sequence files** (orange box). This is done by first writing each unique sequence block, or module, to a **'.mod'** file using the **'mat2mod.m'** MATLAB script. 
