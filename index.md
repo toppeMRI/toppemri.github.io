@@ -69,12 +69,12 @@ Copy the resulting executable files, i.e., toppev1 and toppev1.psd.o, to /usr/g/
 The MATLAB code repository contains several complete [pulse sequence examples](https://github.com/toppeMRI/matlab/tree/master/examples/), such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
 For example, to execute the 3D SPGR example, do the following:
 
-1. Navigate to <https://github.com/toppeMRI/matlab/tree/master/examples/>, select the '3dspgr' folder, and download the file 'scan.tgz'.
-2. Copy scan.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan.tgz```
-3. Prescribe the TOPPE interpreter, e.g., toppev1:
+1. Navigate to <https://github.com/toppeMRI/matlab/tree/master/examples/>,
+1. Navigate to <https://github.com/toppeMRI/matlab/tree/master/examples/v2>, select the '3dspgr' folder, and download the file 'scan,3dspgr.tgz'.
+2. Copy scan,3dspgr.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan,3dspgr.tgz```
+3. Prescribe the TOPPE interpreter, i.e., toppev2:
   + Select Axial 2D pulse sequence; Family: ’Gradient Echo’; pulse: ’GRE’; PSD Name: ’toppev1’;
   + Prescribe a single axial slice.
-  + Set shim to 'off'.
   + Other settings do not matter but must be specified. Suggested values are: Slice thickness 3, slice spacing 0, number of slices 1.
 4. Download the sequence, run auto-prescan, and scan.
 
@@ -101,6 +101,7 @@ git clone https://github.com/toppemri/UserGuide
 
 Pulseq (<https://pulseq.github.io>) is a platform-independent file format for specifying arbitrary MR sequences.
 In preliminary work we have used TOPPE as a GE interpreter of Pulseq files, which involves converting a Pulseq file to TOPPE files using the **'seq2ge.m'** MATLAB script included in the TOPPE distribution.
+We also provide a script **'ge2seq.m'** for converting TOPPE to Pulseq format.
 For more details about Pulseq, see the following paper: 
 
 [DOI: 10.1002/mrm.26235](http://onlinelibrary.wiley.com/doi/10.1002/mrm.26235/abstract)
