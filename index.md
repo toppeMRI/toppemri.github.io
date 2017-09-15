@@ -44,9 +44,11 @@ git clone https://github.com/toppemri/matlab
 
 ## EPIC code
 
-The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for download on the GE collaboration forum: 
+The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for download from the following private repository: 
 
-<https://collaborate.mr.gehealthcare.com/docs/DOC-1247>
+<https://github.com/toppeMRI/psd/>
+
+Please contact <jfnielse@umich.edu> for access to this repository (requires a GE research agreement).
 
 
 
