@@ -57,11 +57,11 @@ Please contact <jfnielse@umich.edu> for access to this repository (requires a GE
 
 ## Compiling the TOPPE interpreter
 
-To compile the TOPPE binary psd (e.g., 'toppev1'), navigate to the '/psd/' subfolder in the EPIC source distribution and compile in the usual way:
+To compile the TOPPE binary psd (e.g., 'toppev2'), navigate to the '/psd/' subfolder in the EPIC source distribution and compile in the usual way:
 ```
 prep_psd_dir; psdqmake hw;
 ```
-Copy the resulting executable files, i.e., toppev1 and toppev1.psd.o, to /usr/g/bin/ on the scanner.
+Copy the resulting executable files, i.e., toppev2 and toppev2.psd.o, to /usr/g/bin/ on the scanner.
 
 
 ## Running an example TOPPE sequence
@@ -72,7 +72,7 @@ For example, to execute the 3D SPGR example, do the following:
 1. Navigate to <https://github.com/toppeMRI/matlab/tree/master/examples/v2>, select the '3dspgr' folder, and download the file 'scan,3dspgr.tgz'.
 2. Copy scan,3dspgr.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan,3dspgr.tgz```
 3. Prescribe the TOPPE interpreter, i.e., toppev2:
-  + Select Axial 2D pulse sequence; Family: ’Gradient Echo’; pulse: ’GRE’; PSD Name: ’toppev1’;
+  + Select Axial 2D pulse sequence; Family: ’Gradient Echo’; pulse: ’GRE’; PSD Name: ’toppev2’;
   + Prescribe a single axial slice.
   + Other settings do not matter but must be specified. Suggested values are: Slice thickness 3, slice spacing 0, number of slices 1.
 4. Download the sequence, run auto-prescan, and scan.
