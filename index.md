@@ -112,4 +112,4 @@ For more details about Pulseq, see the following paper:
 
 TOPPE was developed at the fMRI laboratory at University of Michigan.
 
-For questions, contact Jon-Fredrik Nielsen at jfnielse@umich.edu.
+For questions, contact Jon-Fredrik Nielsen at <jfnielse@umich.edu> or <jfnielsen@gmail.com>.
