@@ -17,6 +17,7 @@ Finally, create a small file named **'modules.txt'** that lists the various modu
 The TOPPE executable only needs to be compiled and installed once per scanner software upgrade.
 
 
+
 ## Example 
 
 The following example shows the TOPPE files for a sequence containing four different modules:
@@ -80,7 +81,10 @@ For example, to execute the 3D SPGR example, do the following:
 
 ## The TOPPE User Guide
 
-Additional details and instructions are provided in the [TOPPE user guide](https://github.com/toppeMRI/UserGuide/blob/master/TOPPE_UserGuide.pdf).
+Additional details and instructions are provided in 
+[this MRM paper](http://onlinelibrary.wiley.com/doi/10.1002/mrm.26990/full)
+and in the 
+[TOPPE user guide](https://github.com/toppeMRI/UserGuide/blob/master/TOPPE_UserGuide.pdf).
 Latex source code for this guide is open-source, available in the following repository: 
 
 <https://github.com/toppeMRI/UserGuide/>
@@ -93,6 +97,7 @@ git clone https://github.com/toppemri/UserGuide
 <dl>
 <!-- This is a comment -->
 </dl>
+
 
 
 
