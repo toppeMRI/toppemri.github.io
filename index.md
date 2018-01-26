@@ -49,6 +49,12 @@ The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for 
 
 <https://github.com/toppeMRI/psd/>
 
+Or from a console:
+
+```
+git clone https://github.com/toppemri/psd
+```
+
 Please contact <jfnielse@umich.edu> for access to this repository (requires a GE research agreement).
 
 
