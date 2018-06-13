@@ -114,16 +114,11 @@ git clone https://github.com/toppemri/UserGuide
 
 ## Wiki and discussion forum
 
-Wiki:
-
 <https://github.com/toppeMRI/toppemri.github.io/wiki>
 
+<https://github.com/orgs/TOPPEusers/teams/toppe-discussion-forum>   (Github account requred for access -- email your Github user name to Jon-Fredrik Nielsen at <jfnielse@umich.edu> or <jfnielsen@gmail.com>)
 
-TOPPE discussion forum:
-
-<https://github.com/orgs/TOPPEusers/teams/toppe-discussion-forum>
-
-The discussion forum is set up as a Github 'team'. To become a member, email your Github user name to Jon-Fredrik Nielsen at <jfnielse@umich.edu> or <jfnielsen@gmail.com>.
+The discussion forum is set up as a Github 'team' under the 'TOPPEusers' organization. To become a member of the discussion forum team, email your Github user name to Jon-Fredrik Nielsen at <jfnielse@umich.edu> or <jfnielsen@gmail.com>.
 
 
 # USING TOPPE AS A GE INTERPRETER FOR Pulseq (under development)
