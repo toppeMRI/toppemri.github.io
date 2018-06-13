@@ -5,6 +5,8 @@
 
 TOPPE is a simple, modular framework for rapid prototyping of pulse sequences on General Electric MRI scanners.
 
+The current software version is 'v2'. All content related to this project, except the GE EPIC source code for the interpreter, is hosted on Github.
+
 Working with TOPPE involves three basic steps:
 
 ![TOPPE workflow](/figs/workflow.png)
@@ -13,7 +15,7 @@ Working with TOPPE involves three basic steps:
 1. Create TOPPE **sequence files** (gray boxes). This is done by first writing each unique sequence block, or module, to a **'.mod'** file using the **'mat2mod.m'** MATLAB script. 
 You then create a file named **'scanloop.txt'** that specifies the order in which to play out the modules, waveform amplitudes, and other dynamic sequence information. 
 Finally, create a small file named **'modules.txt'** that lists the various modules.
-1. Copy the files you created to **/usr/g/bin/** on the scanner, and run the **TOPPE binary executable** (green box) which loads the files and executes the sequence.
+1. Copy the files you created to **/usr/g/bin/** to the scanner, and run the **TOPPE binary executable** (green box) which loads the files and executes the sequence.
 The TOPPE executable only needs to be compiled and installed once per scanner software upgrade.
 
 
@@ -45,17 +47,22 @@ git clone https://github.com/toppemri/matlab
 
 ## EPIC code
 
-The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for download from the following private repository: 
+The **TOPPE binary executable** (psd) is written in 'EPIC' and will soon be available for download on the GE Collaboration community site:
 
-<https://github.com/toppeMRI/psd/>
+<https://collaborate.mr.gehealthcare.com/groups/mr-software-sharing>
+
+Access is restricted to sites that have signed the GE software sharing agreement. 
+
+<!-- 
+<https://github.com/toppeMRI/psd/> 
 
 Or from a console:
 
 ```
 git clone https://github.com/toppemri/psd
 ```
-
 Please contact <jfnielse@umich.edu> for access to this repository (requires a GE research agreement).
+-->
 
 
 
@@ -64,11 +71,11 @@ Please contact <jfnielse@umich.edu> for access to this repository (requires a GE
 
 ## Compiling the TOPPE interpreter
 
-To compile the TOPPE binary psd (e.g., 'toppev2'), navigate to the '/psd/' subfolder in the EPIC source distribution and compile in the usual way:
+The TOPPE binary psd ('toppev2') is compiled in the usual way, i.e.:
 ```
 prep_psd_dir; psdqmake hw;
 ```
-Copy the resulting executable files, i.e., toppev2 and toppev2.psd.o, to /usr/g/bin/ on the scanner.
+Copy the resulting executable files, e.g., toppev2 and toppev2.psd.o for DV25 and earlier, to /usr/g/bin/ on the scanner.
 
 
 ## Running an example TOPPE sequence
@@ -105,6 +112,18 @@ git clone https://github.com/toppemri/UserGuide
 </dl>
 
 
+## Wiki and discussion forum
+
+Wiki:
+
+<https://github.com/toppeMRI/toppemri.github.io/wiki>
+
+
+TOPPE discussion forum:
+
+<https://github.com/orgs/TOPPEusers/teams/toppe-discussion-forum>
+
+The discussion forum is set up as a Github 'team'. To become a member, email your Github user name to Jon-Fredrik Nielsen at <jfnielse@umich.edu> or <jfnielsen@gmail.com>.
 
 
 # USING TOPPE AS A GE INTERPRETER FOR Pulseq (under development)
