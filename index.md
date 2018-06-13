@@ -116,7 +116,7 @@ git clone https://github.com/toppemri/UserGuide
 
 <https://github.com/toppeMRI/toppemri.github.io/wiki>
 
-<https://github.com/orgs/TOPPEusers/teams/toppe-discussion-forum>   (Github account requred for access -- email your Github user name to Jon-Fredrik Nielsen at <jfnielse@umich.edu> or <jfnielsen@gmail.com>)
+<https://github.com/orgs/TOPPEusers/teams/toppe-discussion-forum>  
 
 The discussion forum is set up as a Github 'team' under the 'TOPPEusers' organization. To become a member of the discussion forum team, email your Github user name to Jon-Fredrik Nielsen at <jfnielse@umich.edu> or <jfnielsen@gmail.com>.
 
