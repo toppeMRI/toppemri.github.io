@@ -57,11 +57,7 @@ Or from a console:
 git clone https://github.com/jfnielsen/TOPPEpsdSourceCode
 ```
 
-For access, please email your Github user name to <jfnielse@umich.edu> ot <jfnielsen@gmail.com>.
-
-In addition, institutions must have signed the GE software sharing agreement, see <https://collaborate.mr.gehealthcare.com/groups/mr-software-sharing>. 
-
-
+For access, please email your Github user name to <jfnielse@umich.edu> or <jfnielsen@gmail.com>.
 
 
 
