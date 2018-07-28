@@ -85,7 +85,7 @@ For example, to execute the 3D SPGR example, do the following:
 3. Prescribe the TOPPE interpreter, i.e., toppev2:
   + Select Axial 2D pulse sequence; Family: ’Gradient Echo’; pulse: ’GRE’; PSD Name: ’toppev2’;
   + Prescribe axial slices.
-  + Other settings do not matter but must be specified. Suggested values are: Slice thickness 3, slice spacing 0, number of slices 1.
+  + Other settings do not matter but must be specified. Suggested values are: Slice thickness 3, slice spacing 0.
 4. Download the sequence, run auto-prescan, and scan.
 
 
