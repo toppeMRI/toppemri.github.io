@@ -19,7 +19,7 @@ Finally, create a small file named **'modules.txt'** that lists the various modu
 1. Copy the files you created to **/usr/g/bin/** to the scanner, and run the **TOPPE binary executable** (green box) which loads the files and executes the sequence.
 The TOPPE executable only needs to be compiled and installed once per scanner software upgrade.
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S817b0Yfe3I?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Example 
 
