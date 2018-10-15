@@ -59,6 +59,8 @@ git clone https://github.com/jfnielsen/TOPPEpsdSourceCode
 
 For access, please email your Github user name to <jfnielse@umich.edu> or <jfnielsen@gmail.com>.
 
+Access is limited to institutions that have signed the GE Research Community Sharing License, available at https://collaborate.mr.gehealthcare.com/groups/mr-software-sharing.
+
 
 
 
