@@ -8,7 +8,7 @@ TOPPE is a simple, modular framework for rapid prototyping of pulse sequences on
 
 The current software version is 'v2b'. 
 
-All content related to this project, except the GE EPIC source code for the interpreter, is hosted on Github: https://github.com/toppeMRI/toppe
+All content related to this project, except the GE EPIC source code for the interpreter, is hosted on Github: <https://github.com/toppeMRI/toppe>
 
 Working with TOPPE involves three basic steps:
 
