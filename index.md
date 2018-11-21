@@ -6,7 +6,9 @@
 
 TOPPE is a simple, modular framework for rapid prototyping of pulse sequences on General Electric MRI scanners.
 
-The current software version is 'v2'. All content related to this project, except the GE EPIC source code for the interpreter, is hosted on Github.
+The current software version is 'v2b'. 
+
+All content related to this project, except the GE EPIC source code for the interpreter, is hosted on Github.
 
 Working with TOPPE involves three basic steps:
 
@@ -37,12 +39,12 @@ The following example shows the TOPPE files for a sequence containing four diffe
 
 TOPPE MATLAB code is open source and is available at:
 
-<https://github.com/toppeMRI/matlab/>
+<https://github.com/toppeMRI/toppe/>
 
 Alternatively, from a console you can copy the entire MATLAB repository to a local folder as follows:
 
 ```
-git clone https://github.com/toppemri/matlab
+git clone https://github.com/toppemri/toppe
 ```
 
 
@@ -79,7 +81,9 @@ Copy the resulting executable files, e.g., toppev2 and toppev2.psd.o for DV25 an
 
 ## Running an example TOPPE sequence
 
-The MATLAB code repository contains several complete [pulse sequence examples](https://github.com/toppeMRI/matlab/tree/master/examples/), such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
+NB! NOT UPDATED  -- WIP
+
+The old MATLAB code repository contains several complete [pulse sequence examples](https://github.com/toppeMRI/old_matlab/tree/master/examples/), such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
 For example, to execute the 3D SPGR example, do the following:
 
 1. Navigate to <https://github.com/toppeMRI/matlab/tree/master/examples/v2>, select the '3dspgr' folder, and download the file 'scan,3dspgr.tgz'.
@@ -96,7 +100,7 @@ For example, to execute the 3D SPGR example, do the following:
 Additional details and instructions are provided in 
 [this MRM paper](http://onlinelibrary.wiley.com/doi/10.1002/mrm.26990/full)
 and in the 
-[TOPPE user guide](https://github.com/toppeMRI/UserGuide/blob/master/TOPPE_UserGuide.pdf).
+[TOPPE user guide](https://github.com/toppeMRI/toppe/UserGuide/blob/master/TOPPE_UserGuide.pdf).
 Latex source code for this guide is open-source, available in the following repository: 
 
 <https://github.com/toppeMRI/UserGuide/>
