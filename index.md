@@ -72,11 +72,11 @@ Access is limited to institutions that have signed the GE Research Community Sha
 
 ## Compiling the TOPPE interpreter
 
-The TOPPE binary psd ('toppev2') is compiled in the usual way, i.e.:
+The TOPPE binary psd ('toppev2b') is compiled in the usual way, i.e.:
 ```
 prep_psd_dir; psdqmake hw;
 ```
-Copy the resulting executable files, e.g., toppev2 and toppev2.psd.o for DV25 and earlier, to /usr/g/bin/ on the scanner.
+Copy the resulting executable files, e.g., toppev2b and toppev2b.psd.o for DV25 and earlier, to /usr/g/bin/ on the scanner.
 
 
 ## Running an example TOPPE sequence
@@ -88,8 +88,8 @@ For example, to execute the 3D SPGR example, do the following:
 
 1. Navigate to <https://github.com/toppeMRI/matlab/tree/master/examples/v2>, select the '3dspgr' folder, and download the file 'scan,3dspgr.tgz'.
 2. Copy scan,3dspgr.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan,3dspgr.tgz```
-3. Prescribe the TOPPE interpreter, i.e., toppev2:
-  + Select Axial 2D pulse sequence; Family: ’Gradient Echo’; pulse: ’GRE’; PSD Name: ’toppev2’;
+3. Prescribe the TOPPE interpreter, i.e., toppev2b:
+  + Select Axial 2D pulse sequence; Family: ’Gradient Echo’; pulse: ’GRE’; PSD Name: ’toppev2b’;
   + Prescribe axial slices.
   + Other settings do not matter but must be specified. Suggested values are: Slice thickness 3, slice spacing 0.
 4. Download the sequence, run auto-prescan, and scan.
@@ -100,15 +100,9 @@ For example, to execute the 3D SPGR example, do the following:
 Additional details and instructions are provided in 
 [this MRM paper](http://onlinelibrary.wiley.com/doi/10.1002/mrm.26990/full)
 and in the 
-[TOPPE user guide](https://github.com/toppeMRI/toppe/UserGuide/blob/master/TOPPE_UserGuide.pdf).
-Latex source code for this guide is open-source, available in the following repository: 
+[TOPPE user guide](https://github.com/toppeMRI/toppe/blob/master/UserGuide/TOPPE_UserGuide.pdf)
 
-<https://github.com/toppeMRI/UserGuide/>
-
-To get a copy of the repository, do:
-```
-git clone https://github.com/toppemri/UserGuide
-```
+Latex source code for this guide is open source, available in the TOPPE repository, <https://github.com/toppeMRI/toppe/>.
 
 <dl>
 <!-- This is a comment -->
