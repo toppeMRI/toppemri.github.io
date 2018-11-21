@@ -124,7 +124,6 @@ Pulseq (<https://pulseq.github.io>) is a platform-independent file format for sp
 In preliminary work we have used TOPPE as a GE interpreter of Pulseq files, which involves converting a Pulseq file to TOPPE files using the **'seq2ge.m'** MATLAB script included in the TOPPE distribution.
 We also provide a script **'ge2seq.m'** for converting TOPPE to Pulseq format.
 For more details about Pulseq, see the following paper: 
-
 [DOI: 10.1002/mrm.26235](http://onlinelibrary.wiley.com/doi/10.1002/mrm.26235/abstract)
 
 ![TOPPE files](/figs/pulseq.png)
