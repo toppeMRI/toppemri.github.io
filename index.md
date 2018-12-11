@@ -1,8 +1,15 @@
 
 
-# INTRODUCTION
+# Table of Contents
+1. [Introduction](#introduction)
+2. [Download the source code](#getsource)
+3. [Getting started](#gettingstarted)
+4. [Using TOPPE as a Pulseq interpreter](#pulseq)
 
-## Overview
+
+# INTRODUCTION <a name="introduction"></a>
+
+## Overview 
 
 TOPPE is a simple, modular framework for rapid prototyping of pulse sequences on General Electric MRI scanners.
 
@@ -31,9 +38,7 @@ The following example shows the TOPPE files for a sequence containing four diffe
 
 
 
-# DOWNLOAD TOPPE SOURCE CODE
-
-
+# DOWNLOAD TOPPE SOURCE CODE <a name="getsource"></a>
 
 ## MATLAB code
 
@@ -66,8 +71,7 @@ Access is limited to institutions that have signed the GE Research Community Sha
 
 
 
-
-# GETTING STARTED
+# GETTING STARTED <a name="gettingstarted"></a>
 
 
 ## Compiling the TOPPE interpreter
@@ -118,7 +122,7 @@ Latex source code for this guide is open source, available in the TOPPE reposito
 The discussion forum is set up as a Github 'team'. To become a member of the discussion forum team, email your Github user name to Jon-Fredrik Nielsen at <jfnielse@umich.edu> or <jfnielsen@gmail.com>.
 
 
-# USING TOPPE AS A GE INTERPRETER FOR Pulseq (under development)
+# USING TOPPE AS A GE INTERPRETER FOR Pulseq (under development) <a name="pulseq"></a>
 
 Pulseq (<https://pulseq.github.io>) is a platform-independent file format for specifying arbitrary MR sequences.
 In preliminary work we have used TOPPE as a GE interpreter of Pulseq files, which involves converting a Pulseq file to TOPPE files using the **'seq2ge.m'** MATLAB script included in the TOPPE distribution.
