@@ -128,21 +128,19 @@ For more details about Pulseq, see the following paper:
 
 ![TOPPE files](/figs/pulseq.png)
 
-Step 1: get the TOPPE Matlab toolbox
+Steps:
 
+1. Get the TOPPE Matlab toolbox
 ```
 $ git clone git@github.com:toppeMRI/toppe.git
 ```
-
-Step 2: convert the Pulseq (.seq) file to a set of TOPPE files.
-
+2. Convert the Pulseq (.seq) file to a set of TOPPE files.
 In Matlab:
 ```
 >> addpath ‘<pathToToppe>/pulseq’     
 >> seq2ge(<.seq file>)
 ```
-
-Step 3: execute (TOPPE) sequence as described above.
+3. Execute (TOPPE) sequence as described above.
 
 
 
