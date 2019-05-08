@@ -104,7 +104,7 @@ Latex source code for this guide is open source, available in the TOPPE reposito
 </dl>
 
 
-## Google discussion forum
+## Discussion forum
 
 <https://groups.google.com/forum/#!forum/mr-pulse-sequence-prototyping-with-toppe>
 
