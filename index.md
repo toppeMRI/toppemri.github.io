@@ -104,13 +104,17 @@ Latex source code for this guide is open source, available in the TOPPE reposito
 </dl>
 
 
-## Wiki and discussion forum
+## Google discussion forum
 
+<https://groups.google.com/forum/#!forum/mr-pulse-sequence-prototyping-with-toppe>
+
+<!--
 <https://github.com/toppeMRI/toppemri.github.io/wiki>
 
 <https://github.com/orgs/toppeMRI/teams/discussion-forum>
 
 The discussion forum is set up as a Github 'team'. To become a member of the discussion forum team, email your Github user name to Jon-Fredrik Nielsen at <jfnielse@umich.edu> or <jfnielsen@gmail.com>.
+-->
 
 
 # USING TOPPE AS A GE INTERPRETER FOR Pulseq (under development) <a name="pulseq"></a>
