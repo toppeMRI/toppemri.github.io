@@ -13,7 +13,7 @@
 
 TOPPE is a simple, modular framework for rapid prototyping of pulse sequences on General Electric MRI scanners.
 
-The current software version is 'v2b'. 
+The current software version is 'v2c'. 
 
 All content related to this project, except the GE EPIC source code for the interpreter, is hosted on Github: <https://github.com/toppeMRI/toppe>
 
@@ -76,27 +76,18 @@ Access is limited to institutions that have signed the GE Research Community Sha
 
 ## Compiling the TOPPE interpreter
 
-The TOPPE binary psd ('toppev2b') is compiled in the usual way, i.e.:
+The TOPPE binary psd ('toppev2c') is compiled in the usual way, i.e.:
 ```
 prep_psd_dir; psdqmake hw;
 ```
-Copy the resulting executable files, e.g., toppev2b and toppev2b.psd.o for DV25 and earlier, to /usr/g/bin/ on the scanner.
+Copy the resulting executable files, e.g., toppev2c and toppev2c.psd.o for DV25 and earlier, to /usr/g/bin/ on the scanner.
 
 
-## Running an example TOPPE sequence
+## Running an example TOPPE sequence (UPDATED May 2019)
 
-NB! NOT UPDATED  -- WIP
+The 'examples/ISMRM2019_SoftwareDemo' folder contains two complete examples to get you started: 2D GRE and 2D EPI. See the README.md file in that folder for usage.
 
-The old MATLAB code repository contains several complete [pulse sequence examples](https://github.com/toppeMRI/old_matlab/tree/master/examples/), such as 3D spoiled gradient-echo (SPGR) and stack-of-spirals echo-shifted dynamic imaging (PRESTO fMRI).
-For example, to execute the 3D SPGR example, do the following:
-
-1. Navigate to <https://github.com/toppeMRI/matlab/tree/master/examples/v2>, select the '3dspgr' folder, and download the file 'scan,3dspgr.tgz'.
-2. Copy scan,3dspgr.tgz to /usr/g/bin/ on the scanner and untar: ```tar xzf scan,3dspgr.tgz```
-3. Prescribe the TOPPE interpreter, i.e., toppev2b:
-  + Select Axial 2D pulse sequence; Family: ’Gradient Echo’; pulse: ’GRE’; PSD Name: ’toppev2b’;
-  + Prescribe axial slices.
-  + Other settings do not matter but must be specified. Suggested values are: Slice thickness 3, slice spacing 0.
-4. Download the sequence, run auto-prescan, and scan.
+These sequences will be/was demonstrated at ISMRM in Montreal on Sun May 12 during the educational session titled 'Open-Source Software Tools for MR Pulse Design, Simulation & Reconstruction'. The specific demonstration is titled 'Live Cross-Vendor Sequence Programming with Pulseq'.
 
 
 ## The TOPPE User Guide
