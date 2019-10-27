@@ -85,7 +85,7 @@ Copy the resulting executable files, e.g., toppev2c and toppev2c.psd.o for DV25 
 
 ## Running an example TOPPE sequence (UPDATED May 2019)
 
-The 'examples/ISMRM2019_SoftwareDemo' folder contains two complete examples to get you started: 2D GRE and 2D EPI. See the README.md file in that folder for usage.
+The [examples/ISMRM2019_SoftwareDemo](https://github.com/toppeMRI/toppe/tree/master/examples/ISMRM2019_SoftwareDemo) folder contains two complete examples to get you started: 2D GRE and 2D EPI. See the README.md file in that folder for usage.
 
 These sequences will be/was demonstrated at ISMRM in Montreal on Sun May 12 during the educational session titled 'Open-Source Software Tools for MR Pulse Design, Simulation & Reconstruction'. The specific demonstration is titled 'Live Cross-Vendor Sequence Programming with Pulseq'.
 
