@@ -1,3 +1,14 @@
+# News
+
+![MRI Together](/figs/mri_together_esmrmb_banner.png)
+
+Join us for a live demonstration of TOPPE at 
+[MRI Together](https://mritogether.github.io/),
+a global workshop on open science and reproducible MR research hosted by ESMRMB, 
+Dec 17-21, 2021.  
+Session: **Pulseq & TOPPE on GE**  
+Time: **Dec 15 at 18:00-20:00 UTC**
+
 
 
 # Table of Contents
@@ -13,7 +24,7 @@
 
 TOPPE is a simple, modular framework for rapid prototyping of pulse sequences on General Electric MRI scanners.
 
-The current software version is 'v2c'. 
+This framework is currently being updated to version 4.
 
 All content related to this project, except the GE EPIC source code for the interpreter, is hosted on Github: <https://github.com/toppeMRI/toppe>
 
