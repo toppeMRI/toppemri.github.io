@@ -14,7 +14,7 @@ Time: **Dec 15 at 18:00-20:00 UTC**
 
 ## Funding to develop harmonized fMRI protocols
 
-(Sep 20201) TOPPE and Pulseq recently received funding from an 
+(Sep 2021) TOPPE and Pulseq recently received funding from an 
 [NIH U24 grant](https://reporter.nih.gov/search/Kwg7fwR620KvAQYWZNqzKg/project-details/10306940)
 to develop
 and disseminate **harmonized protocols for multi-site fMRI studies**.
