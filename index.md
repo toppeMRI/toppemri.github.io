@@ -65,8 +65,7 @@ The following example shows the TOPPE files for a sequence containing four diffe
 
 ## MATLAB code
 
-TOPPE MATLAB code is open source and is available at:
-
+The **TOPPE MATLAB toolbox** is open source and is available at:  
 <https://github.com/toppeMRI/toppe/>
 
 Alternatively, from a console you can copy the entire MATLAB repository to a local folder as follows:
@@ -76,8 +75,7 @@ git clone https://github.com/toppemri/toppe
 ```
 
 
-The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for download in the following private Github repository:
-
+The **TOPPE binary executable** (psd) is written in 'EPIC' and is available for download in the following private Github repository:  
 <https://github.com/jfnielsen/TOPPEpsdSourceCode>
 
 For access, please email your Github user name to <jfnielse@umich.edu> or <jfnielsen@gmail.com>.
