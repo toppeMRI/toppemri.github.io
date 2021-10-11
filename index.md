@@ -54,7 +54,8 @@ The TOPPE executable only needs to be compiled and installed once per scanner so
 
 ## Example 
 
-The following example shows the TOPPE files for a sequence containing four different modules:
+The following example shows the TOPPE files for a sequence containing four different modules 
+(note: contents of scanloop.txt are slightly outdated):
 
 ![TOPPE files](/figs/files.png)
 
