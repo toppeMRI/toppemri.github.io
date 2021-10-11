@@ -63,8 +63,6 @@ The following example shows the TOPPE files for a sequence containing four diffe
 
 # DOWNLOAD TOPPE SOURCE CODE <a name="getsource"></a>
 
-## MATLAB code
-
 The **TOPPE MATLAB toolbox** is open source and is available at:  
 <https://github.com/toppeMRI/toppe/>
 
