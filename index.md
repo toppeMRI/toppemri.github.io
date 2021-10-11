@@ -88,11 +88,15 @@ Access is limited to institutions that have signed the GE Research Community Sha
 # GETTING STARTED <a name="gettingstarted"></a>
 
 
-## Running an example TOPPE sequence (UPDATED May 2019)
+## Running an example TOPPE sequence (updated Oct 2021)
 
-The [examples/ISMRM2019_SoftwareDemo](https://github.com/toppeMRI/toppe/tree/master/examples/ISMRM2019_SoftwareDemo) folder contains two complete examples to get you started: 2D GRE and 2D EPI. See the README.md file in that folder for usage.
+The [TOPPE Matlab toolbox respository](https://github.com/toppeMRI/toppe/)
+contains a complete 3D GRE sequence example.  
+
+<!-- The [examples/ISMRM2019_SoftwareDemo](https://github.com/toppeMRI/toppe/tree/master/examples/ISMRM2019_SoftwareDemo) folder contains two complete examples to get you started: 2D GRE and 2D EPI. See the README.md file in that folder for usage.
 
 These sequences will be/was demonstrated at ISMRM in Montreal on Sun May 12 during the educational session titled 'Open-Source Software Tools for MR Pulse Design, Simulation & Reconstruction'. The specific demonstration is titled 'Live Cross-Vendor Sequence Programming with Pulseq'.
+-->
 
 
 ## Additional information
@@ -100,7 +104,9 @@ These sequences will be/was demonstrated at ISMRM in Montreal on Sun May 12 duri
 Additional details and instructions are provided in 
 [this MRM paper](http://onlinelibrary.wiley.com/doi/10.1002/mrm.26990/full)
 and in the 
-[TOPPE Matlab toolbox respository](https://github.com/toppeMRI/toppe/)
+[TOPPE Matlab toolbox respository](https://github.com/toppeMRI/toppe/).  
+For detailed information about the various files involved,
+see the file [Files.md](https://github.com/toppeMRI/toppe/) in the Matlab repo.
 
 <dl>
 <!-- This is a comment -->
@@ -108,9 +114,11 @@ and in the
 
 
 
+<!--
 ## Discussion forum
 
 <https://groups.google.com/forum/#!forum/mr-pulse-sequence-prototyping-with-toppe>
+-->
 
 <!--
 <https://github.com/toppeMRI/toppemri.github.io/wiki>
