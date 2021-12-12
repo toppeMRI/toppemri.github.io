@@ -18,7 +18,7 @@ Time: **Dec 15 at 18:00-20:00 UTC**
 [NIH U24 grant](https://reporter.nih.gov/search/Kwg7fwR620KvAQYWZNqzKg/project-details/10306940)
 to develop
 and disseminate **harmonized protocols for multi-site fMRI studies**.
-Contact us if you'd like to learn more, or stay tuned for updates!
+Contact us if you'd like to learn more, and stay tuned for updates!
 
 
 
