@@ -7,7 +7,7 @@
 Join us for a live demonstration of TOPPE at 
 [MRI Together](https://mritogether.github.io/),
 a global workshop on open science and reproducible MR research hosted by ESMRMB, 
-Dec 17-21, 2021.  
+Dec 13-17, 2021.  
 Session: **Pulseq & TOPPE on GE**  
 Time: **Dec 15 at 18:00-20:00 UTC**
 
