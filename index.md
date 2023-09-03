@@ -9,7 +9,7 @@ To view a redacted version of that manual that contains minimal GE specific info
 If your instution owns a GE MRI scanner and you wish to receive the unredacted version of the manual,
 contact Jon-Fredrik Nielsen at jfnielse@umich.edu.
 
-We now recommended that you design your sequence in
+We now recommend that you design your sequence in
 [Pulseq](http://pulseq.github.io/), and then convert the .seq file to a .tar
 file that can be run on a GE scanner with the TOPPE interpreter.
 The manual descrbies how to perform this conversion.
