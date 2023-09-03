@@ -6,13 +6,13 @@ interpreter of Pulseq files.
 Please see the **Pulseq on GE manual** for more information.
 To view a redacted version of that manual that contains minimal GE specific information, click 
 [this link](https://drive.google.com/file/d/1ejtXJfAWdNzXjMlz4Jo3KjVQU6BwGd5g/view?usp=drive_link).
-If your instution owns a GE MRI scanner and you wish to receive the unredacted version of the manual,
+If your institution owns a GE MRI scanner and you wish to receive the unredacted version of the manual,
 contact Jon-Fredrik Nielsen at jfnielse@umich.edu.
 
 We now recommend that you design your sequence in
 [Pulseq](http://pulseq.github.io/), and then convert the .seq file to a .tar
 file that can be run on a GE scanner with the TOPPE interpreter.
-The manual descrbies how to perform this conversion.
+The manual describes how to perform this conversion.
 
 As a result, most of the information on this page is obsolete,
 and has been removed.
