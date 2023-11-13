@@ -1,13 +1,19 @@
 # News
 
+**Nov 2023: Pulseq course**  
+Please join us for a 3-day Pulseq course Nove 15-17, 2023:
+
+![workflow](figs/pulseq-course-2023.png)
+
 **Sep 2023:**
 TOPPE has been almost completely rewritten to make it a more accurate
 interpreter of Pulseq files.
 Please see the **Pulseq on GE manual** for more information.
 To view a redacted version of that manual that contains minimal GE specific information, click 
 [this link](https://drive.google.com/file/d/1ejtXJfAWdNzXjMlz4Jo3KjVQU6BwGd5g/view?usp=drive_link).
-If your institution owns a GE MRI scanner and you wish to receive the unredacted version of the manual,
-contact Jon-Fredrik Nielsen at jfnielse@umich.edu.
+If your institution owns a GE MRI scanner you can obtain the unredacted version of the manual on gecares.com
+(look for a post by Jon-Fredrik Nielsen in the MR Software Sharing forum on gecares.com),
+or contact Jon-Fredrik Nielsen at jfnielse@umich.edu.
 
 We now recommend that you design your sequence in
 [Pulseq](http://pulseq.github.io/), and then convert the .seq file to a .tar
