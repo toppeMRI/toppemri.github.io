@@ -1,9 +1,10 @@
 # News
 
 **Nov 2023: Pulseq course**  
-Please join us for a 3-day Pulseq course Nove 15-17, 2023:
+Please join us for a 3-day Pulseq course Nov 15-17, 2023:
 
 ![workflow](figs/pulseq-course-2023.png)
+
 
 **Sep 2023:**
 TOPPE has been almost completely rewritten to make it a more accurate
