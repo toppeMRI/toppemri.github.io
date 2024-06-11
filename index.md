@@ -1,3 +1,12 @@
+Thank you for your interest in the 'TOPPE' Pulseq interpreter for GE MRI scanners!
+
+To be added to the 
+[EPIC source code repository](https://github.com/jfnielsen/TOPPEpsdSourceCode),
+please fill out this
+[Google form](https://docs.google.com/forms/d/e/1FAIpQLSfzvbVp77zd8eOLx1h4vMTqKcdDXSoulg7mL_y_PB0bgX18sw/viewform?usp=sf_link).
+(If you do not receive a Github invite after a day or two, please contact jfnielse@umich.edu).
+
+
 # News
 
 **Nov 2023: Pulseq course**  
@@ -25,8 +34,10 @@ As a result, most of the information on this page is obsolete,
 and has been removed.
 
 The interpreter (EPIC source code) is hosted in a
-[separate repository](https://github.com/jfnielsen/TOPPEpsdSourceCode) -- for access, contact jfnielse@umich.edu.
-Access is granted to all institutions that have signed the GE Research Community Sharing License.
+[separate repository](https://github.com/jfnielsen/TOPPEpsdSourceCode) -- for access, 
+fill out this
+[Google form](https://docs.google.com/forms/d/e/1FAIpQLSfzvbVp77zd8eOLx1h4vMTqKcdDXSoulg7mL_y_PB0bgX18sw/viewform?usp=sf_link),
+or just send an email to jfnielse@umich.edu.
 
 
 
