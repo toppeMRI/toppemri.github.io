@@ -9,6 +9,11 @@ please fill out this
 
 # News
 
+**January 2025: Updated sequence examples**  
+To help you get started with Pulseq on GE, 
+the following site contains up-to-date, complete, and fully tested sequence examples: 
+https://github.com/HarmonizedMRI/SequenceExamples-GE
+
 **Nov 2023: Pulseq course**  
 Please join us for a 3-day Pulseq course Nov 15-17, 2023:
 
