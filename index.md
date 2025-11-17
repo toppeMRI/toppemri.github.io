@@ -8,6 +8,9 @@ please fill out this
 (If you do not receive a Github invite after a day or two, please contact jfnielse@umich.edu).
 -->
 
+For information about the community-develop Pulseq interpreter for GE scanner (pge2) including usage examples, see
+https://github.com/HarmonizedMRI/SequenceExamples-GE/tree/main/pge2
+
 
 # News
 
@@ -18,11 +21,12 @@ For access, please contact your GE representative.
 The older interpreter (tv6), as well as previous releases of the pge2 interpreter,
 will remain available at https://github.com/jfnielsen/TOPPEpsdSourceCode.
 
-
+<!--
 **January 2025: Updated sequence examples**  
 To help you get started with Pulseq on GE, 
 the following site contains up-to-date, complete, and fully tested sequence examples: 
 [https://github.com/HarmonizedMRI/SequenceExamples-GE](https://github.com/HarmonizedMRI/SequenceExamples-GE)
+-->
 
 **Nov 2023: Pulseq course**  
 Please join us for a 3-day Pulseq course Nov 15-17, 2023:
