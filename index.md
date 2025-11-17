@@ -1,3 +1,4 @@
+<!--
 Thank you for your interest in the 'TOPPE' Pulseq interpreter for GE MRI scanners!
 
 To be added to the 
@@ -5,9 +6,18 @@ To be added to the
 please fill out this
 [Google form](https://docs.google.com/forms/d/e/1FAIpQLSfzvbVp77zd8eOLx1h4vMTqKcdDXSoulg7mL_y_PB0bgX18sw/viewform?usp=sf_link).
 (If you do not receive a Github invite after a day or two, please contact jfnielse@umich.edu).
+-->
 
 
 # News
+
+**November 2025: New Github repository**  
+The (pge2) interpreter EPIC source code will from now on be hosted by GE at
+https://github.com/GEHC-External/pulseq-ge-interpreter.
+For access, please contact your GE representative.  
+The older interpreter (tv6), as well as previous releases of the pge2 interpreter,
+will remain available at https://github.com/jfnielsen/TOPPEpsdSourceCode.
+
 
 **January 2025: Updated sequence examples**  
 To help you get started with Pulseq on GE, 
