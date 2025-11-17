@@ -13,7 +13,7 @@ please fill out this
 
 **November 2025: New Github repository**  
 The (pge2) interpreter EPIC source code will from now on be hosted by GE at
-https://github.com/GEHC-External/pulseq-ge-interpreter.
+[https://github.com/GEHC-External/pulseq-ge-interpreter](https://github.com/GEHC-External/pulseq-ge-interpreter).
 For access, please contact your GE representative.  
 The older interpreter (tv6), as well as previous releases of the pge2 interpreter,
 will remain available at https://github.com/jfnielsen/TOPPEpsdSourceCode.
