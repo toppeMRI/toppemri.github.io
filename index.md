@@ -8,7 +8,7 @@ please fill out this
 (If you do not receive a Github invite after a day or two, please contact jfnielse@umich.edu).
 -->
 
-For information about the community-develop Pulseq interpreter for GE scanner (pge2) including usage examples, see
+For information about the community-develop Pulseq interpreter for GE scanners (pge2) including usage examples, see
 https://github.com/HarmonizedMRI/SequenceExamples-GE/tree/main/pge2
 
 
